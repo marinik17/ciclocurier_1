@@ -170,10 +170,10 @@ img::-moz-selection {
   }
 }
 
-p.orar {
+.orar {
 	font-size: 14px;
 	font-weight: 700;
-	color:important! #fc8c03;
+	color:#fc8c03;
 	padding: 0 1rem;
 	margin-bottom: 0;
 }
@@ -221,6 +221,128 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 25px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+.stat{
+  background:#121212;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-attachment: fixed;}
+  .stat-items h2{
+  font-weight: bold;
+  font-size: 42px;
+  color: orange;}
+  .stat-items p{
+  font-weight: bold;
+  color:#03a9f4;
+  letter-spacing: 1px;
+  }
+
+  .price-wrapper {
+    padding-top: 60px;
+      /*padding-bottom: 180px;*/
+  }
+  
+  .price-wrapper .price-header {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 64px;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    color: #808080;
+    font-weight: 700;
+  }
+  
+  .price-title {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 52px;
+  }
+  
+  .livrari-list {
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 0; 
+  }
+  
+  .livrari-list .express-item:before {
+    content: "-";
+    padding-right: 5px;
+    color: #fc8c03;
+  }
+  
+  .livrari-list .standard-item:before {
+    content: "-";
+    padding-right: 5px;
+    color: #0056f4;
+  }
+  
+  .km {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 34px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .km-price {
+    padding-top: 160px;
+    margin-bottom: -75px;
+  }
+  
+  .km-align {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  
+  .km-price .illustration-container {
+    margin-left: -92px;
+  }
+  
+  .price-min {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26px;
+    color: #010101;
+    white-space: nowrap;
+  }
+  
+  .km-price .r-black {
+    padding-top: 25px;
+  }
+  
+  .price-wrapper img {
+    margin-top: 70px;
+  }
+  
+  .orange {
+    color: #fc8c03;
+  }
+  
+  .blue {
+    color: #0056f4;
+  }
+  
+  .orange-dot {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #fc8c03;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
+  
+  .blue-dot {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #0056f4;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
