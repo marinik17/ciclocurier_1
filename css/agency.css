@@ -4,9 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+ @font-face {
+   font-family:'Lato';
+   src:url(css/LatoSemibold.ttf);
+   }
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Lato';
 }
 
 p {
@@ -14,15 +18,16 @@ p {
 }
 
 a {
-  color: #fc8c03;
+  color: black;
 }
 
 a:hover {
-  color: #fec503;
+  color: black;
+  text-decoration: underline;
 }
 
 .text-primary {
-  color: #fc8c03 !important;
+  color: black !important;
 }
 
 h1,
@@ -53,20 +58,27 @@ h6 {
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
+@media (max-width: 768px) {
+  ul.orar {
+    padding-left: 0px;
+    padding-top: 10px;
+  	padding-bottom: 10px;
+  }
+}
 @media (min-width: 768px) {
+
   section {
     padding: 150px 0;
   }
 }
 
 ::-moz-selection {
-  background: #fc8c03;
+  background: black;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fc8c03;
+  background: black;
   text-shadow: none;
 }
 
@@ -93,8 +105,8 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fc8c03;
-  border-color: #fc8c03;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -114,16 +126,17 @@ img::-moz-selection {
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
+  padding-top:
   padding: 13px;
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fc8c03;
+  background-color: black;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fc8c03;
+  color: black;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -141,16 +154,17 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fc8c03;
+  color: black;
 }
 
 @media (min-width: 992px) {
   #mainNav {
+    margin-top: 46px;
     padding-top: 25px;
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #00a4e6;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -162,7 +176,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #00a4e6;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -170,12 +184,27 @@ img::-moz-selection {
   }
 }
 
-.orar {
-	font-size: 14px;
-	font-weight: 700;
-	color:#fc8c03;
-	padding: 0 1rem;
-	margin-bottom: 0;
+ul.orar {
+  position: fixed;
+  z-index: 1999;
+  width: 100%;
+  font-family:'Lato';
+  list-style-type: none;
+	font-size: 18px;
+	font-weight: 100;
+	color:#00a4e6;
+  padding-top: 15px;
+	padding-bottom: 15px;
+  padding-left:30%;
+  background-color:black;
+  text-align: left;
+}
+ul.orar li{
+  display:inline;
+}
+ul.orar .space{
+  padding-left: 10%;
+  padding-right: 15%;
 }
 
 header.masthead {
@@ -241,7 +270,7 @@ header.masthead .intro-text .intro-heading {
     padding-top: 60px;
       /*padding-bottom: 180px;*/
   }
-  
+
   .price-wrapper .price-header {
     display: block;
     font-family: 'Roboto';
@@ -252,33 +281,33 @@ header.masthead .intro-text .intro-heading {
     color: #808080;
     font-weight: 700;
   }
-  
+
   .price-title {
     font-size: 42px;
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
     line-height: 52px;
   }
-  
+
   .livrari-list {
     list-style: none;
     font-size: 18px;
     line-height: 30px;
-    padding-left: 0; 
+    padding-left: 0;
   }
-  
+
   .livrari-list .express-item:before {
     content: "-";
     padding-right: 5px;
-    color: #fc8c03;
+    color: black;
   }
-  
+
   .livrari-list .standard-item:before {
     content: "-";
     padding-right: 5px;
     color: #0056f4;
   }
-  
+
   .km {
     font-family: 'Work Sans', sans-serif;
     font-size: 34px;
@@ -286,22 +315,22 @@ header.masthead .intro-text .intro-heading {
     text-align: center;
     text-transform: uppercase;
   }
-  
+
   .km-price {
     padding-top: 160px;
     margin-bottom: -75px;
   }
-  
+
   .km-align {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
   }
-  
+
   .km-price .illustration-container {
     margin-left: -92px;
   }
-  
+
   .price-min {
     font-family: 'Roboto';
     font-size: 16px;
@@ -309,32 +338,32 @@ header.masthead .intro-text .intro-heading {
     color: #010101;
     white-space: nowrap;
   }
-  
+
   .km-price .r-black {
     padding-top: 25px;
   }
-  
+
   .price-wrapper img {
     margin-top: 70px;
   }
-  
+
   .orange {
-    color: #fc8c03;
+    color: black;
   }
-  
+
   .blue {
     color: #0056f4;
   }
-  
+
   .orange-dot {
     display: block;
     width: 18px;
     height: 18px;
-    background-color: #fc8c03;
+    background-color: black;
     border-radius: 50px;
     margin: 0 auto;
   }
-  
+
   .blue-dot {
     display: block;
     width: 18px;
@@ -345,7 +374,7 @@ header.masthead .intro-text .intro-heading {
   }
 
 @media (min-width: 768px) {
-  
+
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -757,7 +786,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fc8c03;
+  border-color: black;
   box-shadow: none;
 }
 
@@ -823,5 +852,6 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fc8c03;
+  background-color: black;
+  text-decoration: underline #FFFF;
 }
