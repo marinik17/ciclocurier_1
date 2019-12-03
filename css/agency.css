@@ -226,11 +226,12 @@ header.masthead {
   position: relative;
   text-align: center;
   color: white;
-  background-image: url("../../img/header-bg.jpg");
+  background-image: url("../../img/header-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  top:100px;
   height: 100vh;
 }
 header.masthead .overlay {
@@ -245,8 +246,8 @@ header.masthead .overlay {
 }
 header.masthead .intro-text {
   position: absolute;
-  padding-top: 112px;
-  padding-bottom: 100px;
+  padding-top: 2px;
+  padding-bottom: 10px;
   z-index: 1;
 }
 
