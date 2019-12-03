@@ -140,8 +140,7 @@ img::-moz-selection {
   color: black;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   position: absolute;
-    left: 10rem;
-    margin-right: 20rem;
+  left: 5%;
     text-align: left;
 }
 
@@ -151,10 +150,9 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
   padding: 0.75em 0;
   padding-bottom: 5rem;
-  letter-spacing: 1px;
   color: white;
   font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -177,7 +175,7 @@ img::-moz-selection {
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
+    padding: 0.6em 1em !important;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
