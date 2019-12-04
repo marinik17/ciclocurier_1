@@ -143,7 +143,7 @@ ul.orar {
   
 }
 #mainNav .navbar-nav .nav-item:first-child {
-  padding-top:38px;
+  padding-top:38px !important;
 }
 
 #mainNav .navbar-brand {
