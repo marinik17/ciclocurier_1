@@ -47,6 +47,9 @@ h6 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  font-family: 'Lato';
+  font-weight: bold;
+  color:#00a4e6;
 }
 
 .page-section h3.section-subheading {
@@ -58,7 +61,7 @@ h6 {
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-}
+
 
 
 ::-moz-selection {
@@ -308,8 +311,8 @@ header.masthead .intro-text .intro-heading {
 
 .stat{
   background:#121212;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 10px;
   background-attachment: fixed;}
   .stat-items h2{
   font-weight: bold;
@@ -320,11 +323,48 @@ header.masthead .intro-text .intro-heading {
   color:#03a9f4;
   letter-spacing: 1px;
   }
-
+p.price{
+    color:#03a9f4;
+    font-family: 'Lato';
+    font-size: 60px;
+}
   .price-wrapper {
-    padding-top: 60px;
+    padding-top: 240px;
+    background-color: #011821;
+    border-radius:10px;
+    font-family: 'Lato';
+    color:white;
       /*padding-bottom: 180px;*/
   }
+  .price-wrapper:nth-child(2){
+    margin-left:10px;
+  }
+   .price-info {
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-bottom: -200px;
+    margin-left:122px;
+    background-color: #03a9f4;
+    border-radius:10px;
+    font-family: 'Lato';
+    color:black;
+    z-index:2;
+  }
+.container-km{
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size:16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+p.centered-km {
+  position: absolute;
+  line-height: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
   .price-wrapper .price-header {
     display: block;
@@ -338,30 +378,24 @@ header.masthead .intro-text .intro-heading {
   }
 
   .price-title {
-    font-size: 42px;
+    padding-top:10px;
+    font-size: 60px;
     font-weight: 700;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato';
     line-height: 52px;
+    color:black;
   }
 
   .livrari-list {
-    list-style: none;
+    color:white;
+    list-style: disc;
     font-size: 18px;
     line-height: 30px;
-    padding-left: 0;
+    padding-left: 40px;
+    padding-right:38px;
   }
 
-  .livrari-list .express-item:before {
-    content: "-";
-    padding-right: 5px;
-    color: black;
-  }
-
-  .livrari-list .standard-item:before {
-    content: "-";
-    padding-right: 5px;
-    color: #0056f4;
-  }
+  
 
   .km {
     font-family: 'Work Sans', sans-serif;
