@@ -36,9 +36,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Lato';
 }
-
 .page-section {
   padding: 100px 0;
 }
@@ -55,11 +54,9 @@ h6 {
 .page-section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
-  font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
+  font-family: 'Lato';}
 
 
 
@@ -348,6 +345,9 @@ header.masthead .intro-text .intro-heading {
     color: #00a4e6;
     text-align: center;
     font: 16px 'Lato';
+}
+#team{
+  background-color: #011821;
 }
 p.price{
     color:#00a4e6;
@@ -858,7 +858,6 @@ p.centered-km {
 .team-member img {
   width: 225px;
   height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
 }
 
 .team-member h4 {
@@ -874,7 +873,10 @@ p.centered-km {
 #portofolio{
   background-color: #00a4e6;
 }
-
+section#team{
+  background-color: #010101;
+  padding-top:-10px;
+}
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
