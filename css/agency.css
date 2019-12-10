@@ -141,8 +141,8 @@ ul.orar {
 #mainNav {
   background-color: #00a4e6;
   position: fixed;
-  top:100px;
-  height:47px;
+  top:78px;
+  height:100px;
   -webkit-box-shadow:0px 7px 10px black;
  -moz-box-shadow:0px 7px 10px black;
  box-shadow:0px 7px 10px black;
@@ -284,6 +284,21 @@ header.masthead .overlay {
   background: rgba(0, 0 ,0, 0.6);
   z-index: 1;
 }
+
+#about {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("../../img/assets/Image-Despre noi.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+section#portofolio .page-section{
+  background-color: #00a4e6;
+}
 header.masthead .intro-text {
   position: absolute;
   padding-top: 30%;
@@ -310,21 +325,32 @@ header.masthead .intro-text .intro-heading {
 }
 
 .stat{
-  background:#121212;
+  background:black;
   padding-top: 100px;
   padding-bottom: 10px;
   background-attachment: fixed;}
   .stat-items h2{
   font-weight: bold;
-  font-size: 42px;
-  color: orange;}
+  font-size: 22px;
+  color:#FFFF;}
   .stat-items p{
   font-weight: bold;
   color:#03a9f4;
   letter-spacing: 1px;
   }
+  .numberCircle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #00a4e6;
+    text-align: center;
+    font: 16px 'Lato';
+}
 p.price{
-    color:#03a9f4;
+    color:#00a4e6;
     font-family: 'Lato';
     font-size: 60px;
 }
@@ -843,6 +869,10 @@ p.centered-km {
 
 .team-member p {
   margin-top: 0;
+}
+
+#portofolio{
+  background-color: #00a4e6;
 }
 
 section#contact {
