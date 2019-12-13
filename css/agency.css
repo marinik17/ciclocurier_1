@@ -303,8 +303,8 @@ header.masthead .overlay {
   background-image: url("../../img/assets/Pedalezi-Illustration.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: right;
-  background-size: cover;
+  background-position: 60%;
+  background-size:cover;
   height: 100vh;
 
 }
@@ -364,10 +364,14 @@ header.masthead .intro-text .intro-heading {
 #team{
   background-color: #011821;
 }
+.review{
+  background-color: #011821;
+  padding: 50px;
+}
 p.price{
     color:#00a4e6;
     font-family: 'Lato';
-    font-size: 60px;
+    font-size: 24px;
 }
   .price-wrapper {
     padding-top: 240px;
@@ -377,9 +381,7 @@ p.price{
     color:white;
       /*padding-bottom: 180px;*/
   }
-  .price-wrapper:nth-child(2){
-    margin-left:10px;
-  }
+  
    .price-info {
     padding-top:30px;
     padding-bottom: 20px;
@@ -390,6 +392,9 @@ p.price{
     font-family: 'Lato';
     color:black;
     z-index:2;
+  }
+  #review{
+    background-color:#00a4e6;
   }
   #comanda{
     background-color:#00a4e6;
@@ -497,10 +502,10 @@ p.price{
 }
 p.centered-km {
   position: absolute;
-  line-height: 50px;
+  line-height: 20px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-40%, -70%);
 }
 
   .price-wrapper .price-header {
@@ -516,7 +521,7 @@ p.centered-km {
 
   .price-title {
     padding-top:10px;
-    font-size: 60px;
+    font-size: 24px;
     font-weight: 700;
     font-family: 'Lato';
     line-height: 52px;
@@ -543,8 +548,8 @@ p.centered-km {
   }
 
   .km-price {
-    padding-top: 160px;
-    margin-bottom: -75px;
+    padding-top: 0;
+    margin-bottom: 0;
   }
 
   .km-align {
@@ -558,19 +563,22 @@ p.centered-km {
   }
 
   .price-min {
-    font-family: 'Roboto';
+    font-family: 'Lato';
     font-size: 16px;
     line-height: 26px;
-    color: #010101;
+    color:white;
     white-space: nowrap;
   }
 
   .km-price .r-black {
-    padding-top: 25px;
+    padding-top: 0;
   }
 
   .price-wrapper img {
-    margin-top: 70px;
+    width: 79px;
+    height: 102px;
+    display: inline-block;
+    margin: 20px;
   }
 
   .orange {
