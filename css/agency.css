@@ -291,7 +291,22 @@ header.masthead .overlay {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 250vh;
+  @media(min-width: 768px;){
+    height:100vh;
+  }
+}
+#recrutare{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("../../img/assets/Pedalezi-Illustration.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right;
+  background-size: cover;
   height: 100vh;
+
 }
 section#portofolio .page-section{
   background-color: #00a4e6;
@@ -585,6 +600,9 @@ p.centered-km {
   }
 
 @media (min-width: 768px) {
+  #about{
+    height:100vh;
+  }
 
   header.masthead .intro-text {
     padding-top: 15%;
