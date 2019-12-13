@@ -376,6 +376,102 @@ p.price{
     color:black;
     z-index:2;
   }
+  #comanda{
+    background-color:#00a4e6;
+  }
+  #regForm {
+    box-sizing: border-box;
+    background-color: #00b6ff;
+    box-shadow: 1px 1px 15px black;
+    margin: 100px auto;
+    font-family: 'Lato';
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+ #regForm h1 {
+    text-align: left;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    background-color: #ffff;
+    opacity:0.8;
+  }
+  input:active{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+  
+  }
+  input:hover{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+  
+  }
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: red;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  button {
+    background-color: #004059;
+    color: #ffffff;
+    border: none;  padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+  
+  /* Make lines that indicate the steps of the form: */
+  .step {
+    width: 33%;
+    background-color: #004059;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    color:black;
+  }
+  
+  .step.active {
+    opacity: 100%;
+    border-bottom: 2px solid #fffd;
+    background-color: #00a4e6;
+  
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+ 
+  
+  #postresult {
+      display: none;
+      padding: 10px 20px;
+      background: rgba(0,0,0,0.5);
+      color: lightgreen;
+      margin-top: 15px;
+  }
+  
 .container-km{
   position: relative;
   text-align: center;
