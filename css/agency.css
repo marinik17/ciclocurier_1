@@ -39,7 +39,7 @@ h6 {
   font-family: 'Lato';
 }
 .page-section {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 .page-section h2.section-heading {
@@ -177,6 +177,9 @@ hr {
   border-color: #00a4e6;
   margin-left:0;
 }
+hr.text-center{
+  margin-left: auto;
+}
 #mainNav .navbar-brand {
   color: black;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -281,7 +284,11 @@ header.masthead .overlay {
   background: rgba(0, 0 ,0, 0.6);
   z-index: 1;
 }
+#portfolio{
+  background:#00a4e6;
+  font-family:Lato;
 
+}
 #about {
   position: relative;
   text-align: center;
@@ -351,10 +358,13 @@ header.masthead .intro-text .intro-heading {
   letter-spacing: 1px;
   }
   .numberCircle {
+    display: inline;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    padding: 5px;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     background: #fff;
     border: 2px solid #fff;
     color: #00a4e6;
@@ -374,7 +384,6 @@ p.price{
     font-size: 24px;
 }
   .price-wrapper {
-    padding-top: 240px;
     background-color: #011821;
     border-radius:10px;
     font-family: 'Lato';
@@ -383,10 +392,7 @@ p.price{
   }
   
    .price-info {
-    padding-top:30px;
-    padding-bottom: 20px;
-    margin-bottom: -200px;
-    margin-left:122px;
+    padding-top:30px;   
     background-color: #03a9f4;
     border-radius:10px;
     font-family: 'Lato';
@@ -505,7 +511,7 @@ p.centered-km {
   line-height: 20px;
   top: 50%;
   left: 50%;
-  transform: translate(-40%, -70%);
+  transform: translate(-47%, -74%);
 }
 
   .price-wrapper .price-header {
