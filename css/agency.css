@@ -203,6 +203,30 @@ hr.text-center{
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: black;
 }
+.freecontactform {
+  margin: auto;
+  margin-top:100px;
+width: 401px;
+height: 360px;
+font-family: arial;
+padding:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background-color: #00a4e6;
+}
+.freecontactformheader {
+font-size:18px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+}
+.wrap{
+  margin-left:40px;
+  margin-right: 50px;
+}
+
 
 @media (min-width: 992px) {
   body{
@@ -420,7 +444,7 @@ p.price{
     text-align: left;
   }
   
-  input {
+  input, optgroup, select, textarea {
     padding: 10px;
     width: 100%;
     font-size: 17px;
@@ -1006,10 +1030,8 @@ section#team{
   padding-top:-10px;
 }
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #80dbff;
+  
 }
 
 section#contact .section-heading {
