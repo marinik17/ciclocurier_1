@@ -141,8 +141,8 @@ ul.orar {
   padding-left: 0;
   display: flex;
   
-  @media(min-width: 768px;){
-    padding-left:5%;
+  @media(min-width: 664px;){
+    padding-left:400px;
   }
   }
   ul.orar .space {
