@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 500;
   font-family: 'Lato';
 }
 .page-section {
@@ -139,6 +139,7 @@ ul.orar {
   top: 0;
   text-align: left;
   padding-left: 0;
+  display: flex;
   
   @media(min-width: 768px;){
     padding-left:5%;
@@ -303,7 +304,7 @@ header.masthead {
   position: relative;
   text-align: center;
   color: white;
-  background-image: url("../../img/header-bg.png");
+  background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -330,7 +331,7 @@ header.masthead .overlay {
   position: relative;
   text-align: center;
   color: white;
-  background-image: url("../../img/assets/Image-Despre noi.png");
+  background-image: url("../img/assets/Image-Despre noi.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -344,7 +345,7 @@ header.masthead .overlay {
   position: relative;
   text-align: center;
   color: white;
-  background-image: url("../../img/assets/Pedalezi-Illustration.png");
+  background-image: url("../img/assets/Pedalezi-Illustration.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 60%;
@@ -352,7 +353,7 @@ header.masthead .overlay {
   height: 100vh;
 
 }
-section#portofolio .page-section{
+section#faq .page-section{
   background-color: #00a4e6;
 }
 header.masthead .intro-text {
@@ -448,7 +449,6 @@ p.price{
     box-shadow: 1px 1px 15px black;
     margin: 100px auto;
     font-family: 'Lato';
-    padding: 40px;
     width: 70%;
     min-width: 300px;
   }
@@ -479,7 +479,7 @@ p.price{
   }
   /* Mark input boxes that gets an error on validation: */
   input.invalid {
-    background-color: red;
+    background-color: pink;
   }
   
   /* Hide all steps by default: */
@@ -509,14 +509,17 @@ p.price{
   .step {
     width: 33%;
     background-color: #004059;
-    border-bottom: 2px solid black;
+    border-bottom: 4px solid black;
     display: inline-block;
     color:black;
+    margin-bottom: 52px;
+    padding: 30px 0 30px 0;
+    word-break: normal;
   }
   
   .step.active {
     opacity: 100%;
-    border-bottom: 2px solid #fffd;
+    border-bottom: 4px solid #fffd;
     background-color: #00a4e6;
   
   }
@@ -1035,7 +1038,7 @@ p.centered-km {
   margin-top: 0;
 }
 
-#portofolio{
+#faq{
   background-color: #00a4e6;
 }
 section#team{
