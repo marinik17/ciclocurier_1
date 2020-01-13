@@ -160,6 +160,12 @@ ul.orar {
    top:78px;
  }
 }
+ul .nabar-nav{
+  margin-top: 50px;
+  @media(min-width:992px){
+    margin-top:0px;
+  }
+}
 
 #mainNav .navbar-toggler {
   position: absolute;
@@ -447,9 +453,9 @@ p.price{
     box-sizing: border-box;
     background-color: #00b6ff;
     box-shadow: 1px 1px 15px black;
-    margin: 100px auto;
+    margin: 0 auto;
     font-family: 'Lato';
-    width: 70%;
+    width: 100%;
     min-width: 300px;
   }
   
