@@ -376,44 +376,48 @@
                 </h3>
           </div>
         </div>
-    <form id="regForm" action="contact-form.php" method="post">
+        <div class="container">
+        
+            <form id="regForm" action="contact-form.php" method="post">
 
-      <!-- Circles which indicates the steps of the form: -->
-      <div style="text-align:center;">
-        <span class="step text-white">01.Detalii Expeditor</span>
-        <span class="step text-white">02.Detalii Destinatar</span>
-        <span class="step text-white">03.Finalizare comand&#259;</span>
-      </div>
-      <div class="wrap">
-      <!-- One "tab" for each step in the form: -->
-      <div class="tab text-white"><h1>Detalii Expeditor</h1>
-        <p><input placeholder="Nume/Firma..." oninput="this.className = ''" name="expName"></p>
-        <p><input type="tel" placeholder="Telefon..." oninput="this.className = ''" name="expPhone"></p>
-        <p><input placeholder="Adresa de ridicare..." oninput="this.className = ''" name="expAddress"></p>
-        <p><input placeholder="Mentiuni..." oninput="this.className = ''" name="expMentiuni" ></p>
-      </div>
-      <div class="tab text-white"><h1>Detalii Destinatar</h1>
-        <p><input placeholder="Nume/Firma..." oninput="this.className = ''" name="destName"></p>
-        <p><input placeholder="Telefon..." oninput="this.className = ''" name="destPhone"></p>
-        <p><input placeholder="Adresa de livrare..." oninput="this.className = ''" name="destAddress"></p>
-      </div>
-      <div class="tab text-white"><h1>Finalizare comand&#259;</h1>
-        <p>Cum doresti sa fie livrat?</p>
-        <p><input id="optShipping" name="optShipping" type="radio" value="STANDARD" />Standard<p>
-        <p><input id="express-rd" name="optShipping" type="radio" value="EXPRESS" />Express</label></p>
-    
-      </div>
-    
-      <div style="overflow:auto;">
-        <div style="text-align: center;">
-          <button type="button" id="prevBtn" onclick="nextPrev(-1)"><<<  |  &#206;napoi</button>
-          <button type="button" id="nextBtn" onclick="nextPrev(1)">Urm&#259;torul  |  >>>  </button>
+              <!-- Circles which indicates the steps of the form: -->
+              <div style="text-align:center;">
+                <span class="step text-white">01.Detalii Expeditor</span>
+                <span class="step text-white">02.Detalii Destinatar</span>
+                <span class="step text-white">03.Finalizare comand&#259;</span>
+              </div>
+              <fieldset style="margin-right:100px; margin-left: 100px;">
+              <!-- One "tab" for each step in the form: -->
+              <div class="tab text-white"><h1>Detalii Expeditor</h1>
+                <p><input placeholder="Nume/Firma..." oninput="this.className = ''" name="expName"></p>
+                <p><input type="tel" placeholder="Telefon..." oninput="this.className = ''" name="expPhone"></p>
+                <p><input placeholder="Adresa de ridicare..." oninput="this.className = ''" name="expAddress"></p>
+                <p><input placeholder="Mentiuni..." oninput="this.className = ''" name="expMentiuni" ></p>
+              </div>
+              <div class="tab text-white"><h1>Detalii Destinatar</h1>
+                <p><input placeholder="Nume/Firma..." oninput="this.className = ''" name="destName"></p>
+                <p><input placeholder="Telefon..." oninput="this.className = ''" name="destPhone"></p>
+                <p><input placeholder="Adresa de livrare..." oninput="this.className = ''" name="destAddress"></p>
+              </div>
+              <div class="tab text-white"><h1>Finalizare comand&#259;</h1>
+                <p>Cum doresti sa fie livrat?</p>
+                <p><input id="optShipping" name="optShipping" type="radio" value="STANDARD" />Standard<p>
+                <p><input id="express-rd" name="optShipping" type="radio" value="EXPRESS" />Express</label></p>
+            
+              </div>
+            
+              <div style="overflow:auto;">
+                <div style="text-align: center;">
+                  <button type="button" id="prevBtn" onclick="nextPrev(-1)"><<<  |  &#206;napoi</button>
+                  <button type="button" id="nextBtn" onclick="nextPrev(1)">Urm&#259;torul  |  >>>  </button>
+                </div>
+              </div>
+            </fieldset>
+              <div id="postresult"></div>            
+            </form>
+         
         </div>
-      </div>
-    </div>
-      <div id="postresult"></div>
-    
-    </form>
+   
   </section>
 
   <!--Recrutare-->
@@ -659,7 +663,7 @@
       <form  class="freecontactform" name="freecontactform" method="post" action="freecontactformprocess.php" onsubmit="return validate.check(this)">
       <fieldset style="text-align:center">	
         <label for="Full_Name" class="required"><span class="required_star">  </span></label>	 
-        <input  placeholder="Nume ..." type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:300px; height:50px">	
+        <input  placeholder="Nume ..." type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:300px; height:50px; margin-left:-5px">	
         <label for="Email_Address" class="required"><span class="required_star">  </span></label>	 
         <input type="text"  placeholder="Adresă mail ..." name="Email_Address" id="Email_Address" maxlength="100" style="width:300px; height:50px">		
         <label for="Your_Message" class="required"> <span class="required_star">  </span></label>	
