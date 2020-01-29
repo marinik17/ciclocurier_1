@@ -38,10 +38,10 @@ a:hover {
 .list-inline-item .facebook a:active {
   background-image: url(img/assets/Icon-Facebook-Active.svg);
 }
-.footer .col-md-6 ul.list-inline li{
+.footer .col-md-7 ul.list-inline li{
   display: block important!;
  }
-.footer .col-md-6 ul.list-inline {
+.footer .col-md-7 ul.list-inline {
   columns: 3;
   -webkit-columns: 3;
   -moz-columns: 3;
@@ -453,6 +453,7 @@ p.price{
     font-family: 'Lato';
     color:black;
     z-index:2;
+    margin-top:50px;
   }
   #review{
     background-color:#00a4e6;
@@ -1140,7 +1141,7 @@ section#contact :-ms-input-placeholder {
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 ul.social-buttons li a {
