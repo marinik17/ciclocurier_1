@@ -107,8 +107,8 @@ img::-moz-selection {
 }
 
 .btn {
-  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
+  font-family: 'Lato';
+   font-weight: 700;
 }
 
 .btn-xl {
@@ -138,6 +138,7 @@ img::-moz-selection {
   padding: 0;  
   color:white;
   border:none;
+  transition: all 0.3s;
 }
 .btn-menu:active, .btn-menu:focus, .btn-primary:hover{
   background-color: #fec810 !important;
@@ -173,6 +174,7 @@ ul.orar {
 }
 ul .nabar-nav{
   margin-top: 50px;
+  transition: all 0.3s;
   @media(min-width:992px){
     margin-top:0px;
   }
@@ -644,7 +646,13 @@ p.centered-km {
     display: inline-block;
     margin: 20px;
   }
-
+  p.centered-ab {
+    position: absolute;
+    line-height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .orange {
     color: black;
   }
@@ -1154,7 +1162,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #007bff;
 }
 
 li.nav-item a:hover {
@@ -1163,9 +1171,10 @@ border-bottom: 4px solid white;
 }
 li.nav-item a:active {
   border-bottom: 4px solid white;
+ 
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: black;
+  background-color: #004059;
   text-decoration: underline #FFFF;
 }
