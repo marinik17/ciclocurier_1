@@ -62,7 +62,10 @@
 </head>
 
 <body id="page-top">
-  
+  <!-- Preloader -->
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
   <!-- Navigation -->
   <ul class="orar">
     <div class="container">
@@ -769,7 +772,14 @@
       </div>
     </div>
   </footer>
-  
+
+    <!-- Preloader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    setTimeout(function(){
+      $('.loader_bg').fadeToggle();
+    }, 1500);
+    </script>   
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
