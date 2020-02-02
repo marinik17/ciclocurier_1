@@ -401,7 +401,7 @@ header.masthead .overlay {
   background-size: cover;
   height: 250vh;
   @media(min-width: 768px;){
-    height:100vh;
+    height:150vh;
   }
 }
 #recrutare{
