@@ -61,9 +61,14 @@
 </head>
 
 <body id="page-top">
+  <!-- Preloader -->
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+  
   <!-- Navigation -->
   <ul class="orar">
-    
+    <div class="container">
     <li class="col-lg-4 col-sm-6">
       <img src="img/assets/Icon-Header-Clock.svg" width="22px" height="22px"/>Program 09:00 -18:00</li>
       <li class="col-lg-4 col-sm-6">
@@ -72,11 +77,11 @@
     <li class="col-lg-4 col-sm-6">
       <img src="img/assets/Icon-Header-Phone.svg" width="22px" height="8px"/>Telefon contact:<a href="tel:0752041061"> <span style="color:#00a4e6;">0752041061</span></a>
     </li>
-    
+    </div>
   </ul>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      
-        <a class="navbar-brand js-scroll-trigger" href="#index.html"><img class="navbar-logo" src="img/assets/Logo-Ciclocurier.png" style="width: 200px; height:35px;" /></a>
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"><img class="navbar-logo" src="img/assets/Logo-Ciclocurier.png" style="width: 200px;" /></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           MENIU
           <i class="fas fa-bars"></i>
@@ -103,7 +108,7 @@
               </li>
           </ul>
         </div>
-      
+      </div>
     </nav>
 <!-- Services -->
 <section class="page-section" id="prices">
@@ -224,45 +229,44 @@
         </div>
       
 
-      </div>
+      </nav>
 
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
+   <!-- Footer -->
+   <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-3">
-          <img src="img/assets/Logo-Ciclocurier_1.svg"/>
-          <span class="copyright">Copyright &copy; ciclOcurier 2019 Developed by <a href="http:\\www.alexdiv.xyz">AlexDIV</a></span>
+        <div class="col-md-2" style="padding-bottom: 100px;">
+          <img src="img/assets/Logo-Ciclocurier_1.svg"/>       
         </div>       
-        <div class="col-md-5">
-          <ul class="list-inline quicklinks">
+        <div class="col-md-7" style="column-width: 310px;">
+          <ul class="list-inline quicklinks" style="line-height:20px;">
             <li class="list-inline-item text-uppercase">
-              <a href="#services">servicii</a>
-              <li class="list-inline-item text-uppercase">
-                <a href="#faq">întrebări</a>
-                <li class="list-inline-item text-uppercase">
-                  <a href="#about">despre</a>
-                  <li class="list-inline-item text-uppercase">
-                    <a href="#team">echipa</a>
-                    <li class="list-inline-item text-uppercase">
-                      <a href="#comanda">comandă</a>
-                      <li class="list-inline-item text-uppercase">
-                        <a href="#recrutare">pedalezi?</a>
-                        <li class="list-inline-item text-uppercase">
-                          <a href="#domenii">domenii</a>
-                          <li class="list-inline-item text-uppercase">
-                            <a href="#clients">clienți</a>
-                            <li class="list-inline-item text-uppercase">
-                              <a href="#review">testimoniale</a>
-                              <li class="list-inline-item text-uppercase">
-                                <a href="#contact">contact</a>            
+              <a class="nav-link js-scroll-trigger"  href="#services">servicii</a></li></br>
             <li class="list-inline-item text-uppercase">
-              <a href="http://ciclocurier.ro/docs/conditii_generale.pdf">termenii și condiții</a>
+              <a class="nav-link js-scroll-trigger"  href="#faq">întrebări</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#about">despre</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#team">echipa</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#comanda">comandă</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#recrutare">pedalezi?</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#domenii">domenii</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#clients">clienți</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#review">testimoniale</a></li></br>
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="#contact">contact</a> </li></br>        
+            <li class="list-inline-item text-uppercase">
+              <a class="nav-link js-scroll-trigger"  href="http://ciclocurier.ro/docs/conditii_generale.pdf">termenii și condiții</a>
             </li>
             <li class="list-inline-item ">
-              <a href="http://ciclocurier.ro/docs/GDPR.pdf">PROTECȚIA DATELOR</a>
+              <a class="nav-link js-scroll-trigger"  href="http://ciclocurier.ro/docs/GDPR.pdf">PROTECȚIA DATELOR</a>
             </li>
             <!--<li class="list-inline-item">
               <a href="http://www.ancom.ro/formdata-5312-91-255">ANCOM</a>
@@ -272,25 +276,39 @@
             </li>-->
           </ul>
         </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">            
-            <li class="list-inline-item">
+        <div class="col-md-3">
+          <ul class="list-inline social-buttons" >            
+            <li class="list-inline-item facebook" style="padding-right: 50px;">
               <a href="https://www.facebook.com/Ciclocurierexpress/">
-                <img src="img/assets/Icon-Facebook-Inactive.svg" >
+                <i class="fab fa-facebook-f"></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/company/ciclocurier/about">
-                <img src="img/assets/Icon-Instagram-Inactive.svg" >
-               
+            <li class="list-inline-item instagram">
+              <a href="#">
+                <i class="fab fa-instagram" ></i>
+                
               </a>
             </li>
           </ul>
+          <p>
+            <span class="copyright" style="color: #00a4e6; margin:10px;"> contact@ciclocurier.ro</span>
+          </p>
+
+          <p>
+          <span class="copyright" style="color: #00a4e6; margin:10px;"> &copy; Ciclocurier 2020 </span>
+        </p>
         </div>
       </div>
     </div>
   </footer>
   
+  <!-- Preloader -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+  setTimeout(function(){
+    $('.loader_bg').fadeToggle();
+  }, 1500);
+  </script>  
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
