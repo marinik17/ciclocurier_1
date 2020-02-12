@@ -396,10 +396,7 @@ header.masthead .overlay {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  height: 300vh;
-  @media(min-width: 768px;){
-    height:150vh;
-  }
+  height: 100vh;
 }
 #recrutare{
   position: relative;
@@ -460,9 +457,9 @@ header.masthead .intro-text .intro-heading {
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    padding: 10px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     background: #fff;
     border: 2px solid #fff;
     color: #00a4e6;
@@ -721,9 +718,7 @@ p.centered-km {
   }
 
 @media (min-width: 768px) {
-  #about{
-    height:120vh;
-  }
+  
 
   header.masthead .intro-text {
     padding-top: 15%;
