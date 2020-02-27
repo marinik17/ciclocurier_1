@@ -835,7 +835,7 @@
 window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
-  if (window.pageYOffset > 300) { // Show backToTopButton
+  if (window.pageYOffset > 1000) { // Show backToTopButton
     if(!backToTopButton.classList.contains("btnEntrance")) {
       backToTopButton.classList.remove("btnExit");
       backToTopButton.classList.add("btnEntrance");
@@ -848,7 +848,7 @@ function scrollFunction() {
       backToTopButton.classList.add("btnExit");
       setTimeout(function() {
         backToTopButton.style.display = "none";
-      }, 250);
+      }, 950);
     }
   }
 }
