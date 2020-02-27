@@ -66,11 +66,30 @@
 <body id="page-top">
   <!-- Preloader -->
   <div class="loader_bg">
-    <div class="loader">
+    <div id="loader">
       <img class="image1" src="img/assets/Wheel.svg"/>
     </div>
   </div>
+  <!-- Pop UP -->
+
+  <div id="popUpMain">
+    <div id="popup">
+      
+      <div class="container-pop">
+      <h3>       <img src="img/assets/Icon-Funditi-linie.svg" style=" margin-left: -50px;">
+        Discount 15%</h3>
+      <p>Plasează o comandă de pe site și lasă-ne adresa ta de mail ca să îți oferim un voucher. </p>
+      <form action="/action_page.php">
+      <input type="email" name="email" id="emailId"  placeholder="Email..." required/>
+      <input type="submit">
+      </form>
+      <button class=" btn btn-primary submitId" style=" width: 140px;">Anulează</button>
+    </div>
+    </div>
+  </div> 
   <!-- Navigation -->
+  <div id="overlay" class="cover blur-in">
+
   <header>
   <ul class="orar">
     <div class="container">
@@ -226,11 +245,6 @@
            </div>
            </div>
         </div>
-        </div>
-      
-
-      </div>
-
   </section>
   
   
@@ -453,7 +467,7 @@
     <div class="container">
       <div class="row" style="float:right;">
         <div class="col-lg-8 text-center"></div>
-          <div class="col-lg-4 text-center" style="background: rgba(0, 164, 230, 0.25);>
+          <div class="col-lg-4 text-center" style="background: rgba(0, 164, 230, 0.25);">
             <h2 class="section-heading">Cariere </h2>
             <h3>Pedalează, pentru un oraș modern! </h3>
             <p class="text-center text-white">
@@ -717,7 +731,7 @@
       </div>
     </div>
   </section>
-  <button id="back-to-top-btn" class="social-buttons" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+  <img src="img/assets/Icon-Jump-Homepage.svg" id="back-to-top-btn"  title="Go to top"/>
 
   <!-- Footer -->
   <footer class="footer">
@@ -787,7 +801,7 @@
       </div>
     </div>
   </footer>
-
+</div>
     <!-- Preloader -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
@@ -795,6 +809,24 @@
       $('.loader_bg').fadeToggle();
     }, 1500);
     </script>   
+ <!--POP-Up-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  var preloader = document.getElementById('loader');
+  function myFunction(){
+    preloader.style.display='none';
+  }
+  $(document).ready(function(){
+    setTimeout(function(){
+      $('#popUpMain').css('display','block'); }, 5000);
+    });
+    $('.submitId').click(function(){
+      $('#popUpMain').css('display','none');
+    });
+  
+</script>
+
  <!--Up to TOP-->
 
 <script>
